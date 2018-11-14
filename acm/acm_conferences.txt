@@ -1,0 +1,102 @@
+	CHI, WebSci 
+	SIGMOD - acmspecialinterestgroupondatacommunication	2675
+	
+Database
+	PODS - symposiumonprinciplesofdatabasesystems	833
+Data Mining
+	KDD - knowledgediscoveryanddatamining	4839
+	CIKM - conferenceoninformationandknowledgemanagement	4483
+	SDM - siaminternationalconferenceondatamining	1193
+Human Computer Interaction
+	IUI - intelligentuserinterfaces	1488
+	CSCW - conferenceoncomputersupportedcooperativework	2552
+World Wide Web
+	WWW - worldwideweb	309
+	WSDM - websearchanddatamining	702
+	Hypertext - acmconferenceonhypertext	1155
+	WI - webintelligence	2358
+
+Information Retrieval
+	SIGIR - internationalacmsigirconferenceonresearchanddevelopmentininformationretrieval 4104	
+	RecSys - conferenceonrecommendersystems	825
+Soft. Engg.
+	ICSE - internationalconferenceonsoftwareengineering	5759
+	FSE - acmsigsoftsoftwareengineeringnotes	1810
+	ASE - automatedsoftwareengineering	1923
+MultiMedia
+	ACM MM - acmmultimedia	4370
+Digital Library
+	JCDL - acmieeejointconferenceondigitallibraries	242
+Misc
+	SODA - symposiumondiscretealgorithms	2858
+	SAC - acmsymposiumonappliedcomputing	5772
+
+"symposiumonprinciplesofdatabasesystems"
+"knowledgediscoveryanddatamining"
+"conferenceoninformationandknowledgemanagement"
+"siaminternationalconferenceondatamining"
+"intelligentuserinterfaces"
+"conferenceoncomputersupportedcooperativework"
+"worldwideweb"
+"websearchanddatamining"
+"acmconferenceonhypertext"
+"webintelligence"
+"internationalacmsigirconferenceonresearchanddevelopmentininformationretrieval"
+"conferenceonrecommendersystems"
+"internationalconferenceonsoftwareengineering"
+"acmsigsoftsoftwareengineeringnotes"
+"automatedsoftwareengineering"
+"acmmultimedia"
+"acmieeejointconferenceondigitallibraries" -----
+"symposiumondiscretealgorithms"
+"acmsymposiumonappliedcomputing"
+
+
+Found:
+
+symposiumonprinciplesofdatabasesystems
+internationalconferenceonsoftwareengineering
+worldwideweb
+symposiumondiscretealgorithms
+siaminternationalconferenceondatamining
+internationalacmsigirconferenceonresearchanddevelopmentininformationretrieval
+acmconferenceonhypertext
+automatedsoftwareengineering
+acmmultimedia
+conferenceonrecommendersystems
+knowledgediscoveryanddatamining
+acmsigsoftsoftwareengineeringnotes
+conferenceoninformationandknowledgemanagement
+webintelligence
+intelligentuserinterfaces
+acmsymposiumonappliedcomputing
+conferenceoncomputersupportedcooperativework
+websearchanddatamining
+
+Database
+	PODS - symposiumonprinciplesofdatabasesystems
+Data Mining
+	KDD - knowledgediscoveryanddatamining
+	CIKM - conferenceoninformationandknowledgemanagement
+	SDM - siaminternationalconferenceondatamining
+Human Computer Interaction
+	IUI - intelligentuserinterfaces
+	CSCW - conferenceoncomputersupportedcooperativework
+World Wide Web
+	WWW - worldwideweb
+	WSDM - websearchanddatamining
+	Hypertext - acmconferenceonhypertext
+	WI - webintelligence
+
+Information Retrieval
+	SIGIR - internationalacmsigirconferenceonresearchanddevelopmentininformationretrieval
+	RecSys - conferenceonrecommendersystems
+Soft. Engg.
+	ICSE - internationalconferenceonsoftwareengineering	
+	FSE - acmsigsoftsoftwareengineeringnotes	
+	ASE - automatedsoftwareengineering
+MultiMedia
+	ACM MM - acmmultimedia	
+Misc
+	SODA - symposiumondiscretealgorithms	
+	SAC - acmsymposiumonappliedcomputing	

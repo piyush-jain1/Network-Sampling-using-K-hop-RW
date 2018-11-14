@@ -1,0 +1,29 @@
+Running metapath2vec
+
+python metapath2vec.py -d acm -g clique
+
+./metapath2vec/metapath2vec -train metapath2vec/m2v_data/dblp/aca.txt -output metapath2vec/m2v_data_emb/dblp/aca -pp 0 -size 100 -window 7 -negative 5 -threads 44
+
+python metapath2vec/run.py -d acm -f metapath2vec/m2v_data_emb/acm/aca_clique.txt -g clique
+
+python compute_hadamard_new.py -d acm -m metapath2vec -g clique
+
+python eval.py -d acm -m lr -model metapath2vec -g clique
+
+Running Verse
+
+python verse/python/convert.py --format edgelist acm/acm_train_clique.csv verse/data/acm_clique.bcsr
+
+./verse/src/verse -input verse/data/acm_clique.bcsr -output verse/data/acm/acm_clique.bin -dim 100 -threads 44
+
+python verse/run.py -d dblp -g clique -dim 100
+
+python compute_hadamard_new.py -d acm -m verse -g clique
+
+python eval.py -d acm -m lr -model verse -g clique
+
+
+
+
+
+
