@@ -1,4 +1,12 @@
-## CODS COMAND 2019  
+## CODS COMAD 2019  
+
+Network Sampling refers to the methodologies defined for preserving structural properties of the given network. In recent past
+
+
+Further, 
+Network Sampling is an important pre-requisite for Unsupervised Network Embedding methods. 
+
+
 
 The datasets used for experimentation are:
 * **DBLP**
