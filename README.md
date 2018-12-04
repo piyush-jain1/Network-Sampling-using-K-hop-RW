@@ -20,9 +20,9 @@ You can download the datasets from this [link](https://drive.google.com/file/d/1
 
 
 ## Dataset Preparation
-1. We selected some of the top conferences for both ACM and DBLP from [here](http://www.conferencelist.info/targets.html)
+1. We selected some of the top conferences for both ACM and DBLP from [here](http://www.conferencelist.info/targets.html).
 2. We downloaded the bibiliographic information for both the datasets from [Aminer](https://aminer.org/citation) website.
-3. We filtered the bibiliographic information for our selected list of conferences (step 1) which can be found in acm/acm_conferences.txt and dblp/dblp_conferences.txt.
+3. We filtered the bibiliographic information for our selected list of conferences (step 1) which can be found in [acm/acm_conferences.txt](https://github.com/piyush-jain1/Network-Sampling-using-K-hop-RW/blob/master/acm/acm_conferences.txt) and [dblp/dblp_conferences.txt](https://github.com/piyush-jain1/Network-Sampling-using-K-hop-RW/blob/master/dblp/dblp_conferences.txt).
 
 
 ## Preparing Mapped file from unmapped [unmapped_to_mapped.py]
