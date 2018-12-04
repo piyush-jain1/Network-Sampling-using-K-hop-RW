@@ -7,10 +7,11 @@ Further,
 Network Sampling is an important pre-requisite for Unsupervised Network Embedding methods. 
 
 
-
 The datasets used for experimentation are:
 * **DBLP**
 * **ACM**
+
+You can download the datasets from this [link](https://drive.google.com/file/d/1wC1A_P3Gpe9GMXiN3akHqLTTwSCpQNVC/view?usp=sharing).
 
 - DATASET = acm/dblp
 - GRAPHTYPE = star/clique
@@ -63,49 +64,7 @@ python corpus_generate.py -d ${DATASET} --samples_length ${SAMPLES_LENGTH} --num
 python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_1_${GRAPHTYPE}.csv
 ```
 
-#### Node2Vec
-```
-python convert_mapped_to_int.py -d ${DATASET} -g ${GRAPHTYPE}
-```
-```
-python node2vec/src/main.py --input ${DATASET}/${DATASET}_train_int_${GRAPHTYPE}.txt --output node2vec/emb/${DATASET}/${DATASET}_${GRAPHTYPE}.bin --dimensions 100 --workers 44
-```
-Now we need to convert this binary embedding file to word2vec format:
-```
-python node2vec/run.py -d ${DATASET} -f node2vec/emb/${DATASET}/${DATASET}_${GRAPHTYPE}.bin -g ${GRAPHTYPE}
-```
-
-#### Metapath2Vec
-First generate the contexts for each graph (ACA, APA and APC):
-```
-python metapath2vec.py -d ${DATASET} -g ${GRAPHTYPE}
-```
-
-Now for generating the embedding vectors for ACA:
-```
-./metapath2vec/metapath2vec -train metapath2vec/m2v_data/${DATASET}/aca.txt -output metapath2vec/m2v_data_emb/${DATASET}/aca -pp 0 -size 100 -window 7 -negative 5 -threads 44
-```
-
-To generate required embeddings:
-```
-python metapath2vec/run.py -d {DATASET} -f metapath2vec/m2v_data_emb/${DATASET}/aca_clique.txt -g ${GRAPHTYPE}
-```
-
-#### Verse
-First convert the edgelist format of the graph to bcsr format:
-```
-python verse/python/convert.py --format edgelist ${DATASET}/${DATASET}_train_${GRAPHTYPE}.csv verse/data/${DATASET}_${GRAPHTYPE}.bcsr
-```
-
-Now, generate the embeddings using verse:
-```
-./verse/src/verse -input verse/data/${DATASET}_${GRAPHTYPE}.bcsr -output verse/data/${DATASET}/${DATASET}_${GRAPHTYPE}.bin -dim 100 -threads 44
-```
-
-Now we need to convert this binary embedding file to word2vec format:
-```
-python verse/run.py -d ${DATASET} -g ${GRAPHTYPE} -dim 100
-```
+Here, you can generate also other embeddings like Node2Vec, Metapath2Vec and Verse for baseline comparisions.
 
 ### HADAMARD PRODUCT GENERATION FOR TEST EDGE (compute_hadamard.py)
 Compute hadamard similarites of authors in test data.
