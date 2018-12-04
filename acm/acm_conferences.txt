@@ -1,27 +1,27 @@
 Database
-	PODS - symposiumonprinciplesofdatabasesystems
+	PODS - Symposium On Principles of Database Systems
 Data Mining
-	KDD - knowledgediscoveryanddatamining
-	CIKM - conferenceoninformationandknowledgemanagement
-	SDM - siaminternationalconferenceondatamining
+	KDD - Knowledge Discovery and Data Mining
+	CIKM - Conference on Information and Knowledge Management
+	SDM - Siam International Conference on Data Mining
 Human Computer Interaction
-	IUI - intelligentuserinterfaces
-	CSCW - conferenceoncomputersupportedcooperativework
+	IUI - Intelligent User Interfaces
+	CSCW - Conference on Computer Supported Cooperative Work
 World Wide Web
-	WWW - worldwideweb
-	WSDM - websearchanddatamining
-	Hypertext - acmconferenceonhypertext
-	WI - webintelligence
+	WWW - World Wide Web
+	WSDM - Web Search and Data Mining
+	Hypertext - ACM Conference on Hypertext
+	WI - Web Intelligence
 
 Information Retrieval
-	SIGIR - internationalacmsigirconferenceonresearchanddevelopmentininformationretrieval
-	RecSys - conferenceonrecommendersystems
+	SIGIR - International ACM Sigir Conference on Research and Development in Information Retrieval
+	RecSys - Conference on Recommender Systems
 Soft. Engg.
-	ICSE - internationalconferenceonsoftwareengineering	
-	FSE - acmsigsoftsoftwareengineeringnotes	
-	ASE - automatedsoftwareengineering
+	ICSE - International Conference on Software Engineering	
+	FSE - ACm Sigsoft Software Engineering Notes	
+	ASE - Automated Software Engineering
 MultiMedia
-	ACM MM - acmmultimedia	
+	ACM MM - ACM Multimedia	
 Misc
-	SODA - symposiumondiscretealgorithms	
-	SAC - acmsymposiumonappliedcomputing	
+	SODA - Symposium on Discrete Algorithms	
+	SAC - ACM Symposium on Applied Computing	
