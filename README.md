@@ -64,16 +64,4 @@ python corpus_generate.py -d ${DATASET} --samples_length ${SAMPLES_LENGTH} --num
 python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_1_${GRAPHTYPE}.csv
 ```
 
-Here, you can generate also other embeddings like Node2Vec, Metapath2Vec and Verse for baseline comparisions.
 
-### HADAMARD PRODUCT GENERATION FOR TEST EDGE (compute_hadamard.py)
-Compute hadamard similarites of authors in test data.
-```
-python compute_hadamard_new.py -d ${DATASET} -m khop -k 1 -g ${GRAPHTYPE}
-```
-
-### EVALUATION OF CLASSIFICATION TASK
-Evaluation:
-```
-python eval.py -d ${DATASET} -m ${CLASSIFICATION_METHOD} -model khop -k 1 -g ${GRAPHTYPE}
-```
