@@ -1,5 +1,0 @@
-  Method  Train_Percent  F-1_Macro  F-1_Micro       AUC  Avg_Precision  \
-0     lr            0.8   0.376768        0.4  0.428333       0.621607   
-
-   Accuracy  
-0       0.4  
