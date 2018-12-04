@@ -13,9 +13,17 @@ The datasets used for experimentation are:
 
 You can download the datasets from this [link](https://drive.google.com/file/d/1wC1A_P3Gpe9GMXiN3akHqLTTwSCpQNVC/view?usp=sharing).
 
+
 - DATASET = acm/dblp
 - GRAPHTYPE = star/clique
 - CLASSIFICATION_METHOD = lr/nb/rf/dt
+
+
+## Dataset Preparation
+1. We selected some of the top conferences for both ACM and DBLP from [here](http://www.conferencelist.info/targets.html)
+2. We downloaded the bibiliographic information for both the datasets from [Aminer](https://aminer.org/citation) website.
+3. We filtered the bibiliographic information for our selected list of conferences (step 1) which can be found in acm/acm_conferences.txt and dblp/dblp_conferences.txt.
+
 
 ## Preparing Mapped file from unmapped [unmapped_to_mapped.py]
 ```

@@ -5,8 +5,6 @@ GRAPHTYPE="clique"
 SAMPLES_LENGTH=100
 NUM_SAMPLES=30
 
-CLASSIFICATION_METHODS='lr dt rf nb'
-
 # # creating mapped file from unmapped
 echo "running unmapped_to_mapped.py"
 python unmapped_to_mapped.py -d ${DATASET} 	
@@ -34,17 +32,4 @@ python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_1_${GRAPHTYPE}.cs
 python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_2_${GRAPHTYPE}.csv
 python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_3_${GRAPHTYPE}.csv
 
-echo "running compute_hadamard_new.py"
-python compute_hadamard_new.py -d ${DATASET} -m khop -k 1 -g ${GRAPHTYPE}
-python compute_hadamard_new.py -d ${DATASET} -m khop -k 2 -g ${GRAPHTYPE}
-python compute_hadamard_new.py -d ${DATASET} -m khop -k 3 -g ${GRAPHTYPE}
-
-echo "running eval.py"
-for CLASSIFICATION_METHOD in $CLASSIFICATION_METHODS;
-do
-	echo ${CLASSIFICATION_METHOD}
-	python eval.py -d ${DATASET} -m ${CLASSIFICATION_METHOD} -model khop -k 1 -g ${GRAPHTYPE}
-	python eval.py -d ${DATASET} -m ${CLASSIFICATION_METHOD} -model khop -k 2 -g ${GRAPHTYPE}
-	python eval.py -d ${DATASET} -m ${CLASSIFICATION_METHOD} -model khop -k 3 -g ${GRAPHTYPE}
-done
 
