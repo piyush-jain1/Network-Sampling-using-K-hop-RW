@@ -1,6 +1,9 @@
 ## CODS COMAD 2019  
 
-Network Sampling refers to the methodologies defined for preserving structural properties of the given network. In recent past
+Network Sampling refers to the methodologies defined for preserving structural properties of the given network using representative node samples. Among various approaches, random walk based network sampling has received much popularity.  
+Further, network sampling has many applications such as, 
+
+Recently, it is observed that network sampling has been used widely for unsupervised network embedding tasks. 
 
 
 Further, 
