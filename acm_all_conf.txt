@@ -1,4 +1,3 @@
-acmspecialinterestgroupondatacommunication
 symposiumonprinciplesofdatabasesystems
 knowledgediscoveryanddatamining
 conferenceoninformationandknowledgemanagement
@@ -15,6 +14,5 @@ internationalconferenceonsoftwareengineering
 acmsigsoftsoftwareengineeringnotes
 automatedsoftwareengineering
 acmmultimedia
-acmieeejointconferenceondigitallibraries
 symposiumondiscretealgorithms
 acmsymposiumonappliedcomputing
