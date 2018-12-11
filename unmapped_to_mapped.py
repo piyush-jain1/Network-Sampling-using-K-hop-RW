@@ -102,6 +102,8 @@ def unmapped_to_mapped(dataset):
 	if dataset == 'dblp':
 		for row in reader:
 			[title, venue, year, author] = [row[0], row[2], int(row[3]), eval(row[6])]
+			venue = venue.lower()	
+			venue = "".join(venue.split(' '))	
 			if venue not in venue_dict:
 				venue_dict[venue] = "v_" + str(venue_idx)
 				venue_idx = venue_idx + 1
