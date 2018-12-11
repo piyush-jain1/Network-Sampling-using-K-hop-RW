@@ -35,9 +35,9 @@ def pre(dataset):
 	# read list of conferences for each dataset
 	conf_list = ''
 	if dataset == 'dblp':
-		conf_list = 'dblp_conf_list.txt'
+		conf_list = 'dblp_all_conf.txt'
 	elif dataset == 'acm':
-		conf_list = 'acm_conf_list.txt'
+		conf_list = 'acm_all_conf.txt'
 	f = open(conf_list,'r')
 	temp = f.readlines()
 	conf_list = [ _.rstrip() for _ in temp ]
