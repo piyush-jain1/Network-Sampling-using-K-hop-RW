@@ -1,14 +1,7 @@
 ## CODS COMAD 2019  
 
-Network Sampling refers to the methodologies defined for preserving structural properties of the given network using representative node samples. Among various approaches, random walk based network sampling has received much popularity.  
-Further, network sampling has many applications such as, 
-
-Recently, it is observed that network sampling has been used widely for unsupervised network embedding tasks. 
-
-
-Further, 
-Network Sampling is an important pre-requisite for Unsupervised Network Embedding methods. 
-
+Network Sampling refers to the methodologies defined for preserving structural properties of the given network using representative node sequences. Among various approaches, random walk based network sampling has received much popularity.  
+This paper proposes a novel random walk based sampling approach  RW-k, which captures proximity between two nodes separated by k hops. Thereafter, we use the node sequences for heterogeneous network embedding and observe that RW-k helps in generating better quality of network embedding suitable for link prediction task. 
 
 The datasets used for experimentation are:
 * **DBLP**
