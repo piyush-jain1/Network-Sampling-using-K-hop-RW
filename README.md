@@ -67,5 +67,24 @@ python corpus_generate.py -d ${DATASET} --samples_length ${SAMPLES_LENGTH} --num
 ```
 python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_1_${GRAPHTYPE}.csv
 ```
+## CITING
+If you find this work useful, please cite the following paper:
 
+@inproceedings{Anil:2019:NSU:3297001.3297060,
+ author = {Anil, Akash and Singhal, Shubham and Jain, Piyush and Singh, Sanasam Ranbir and Ladhar, Ajay and Singh, Sandeep and Chugh, Uppinder},
+ title = {Network Sampling Using K-hop Random Walks for Heterogeneous Network Embedding},
+ booktitle = {Proceedings of the ACM India Joint International Conference on Data Science and Management of Data},
+ series = {CoDS-COMAD '19},
+ year = {2019},
+ isbn = {978-1-4503-6207-8},
+ location = {Kolkata, India},
+ pages = {354--357},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3297001.3297060},
+ doi = {10.1145/3297001.3297060},
+ acmid = {3297060},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Co-authorship, DBLP, Heterogeneous Network, Network Embedding, Network Sampling, Random Walk},
+} 
 
