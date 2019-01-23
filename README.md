@@ -69,11 +69,12 @@ python embedding_word2vec.py -f ${DATASET}/${DATASET}_sampling_1_${GRAPHTYPE}.cs
 ```
 ## CITING
 If you find this work useful, please cite the following paper:
-
+```
 @inproceedings{Anil:2019:NSU:3297001.3297060,
 author = {Anil, Akash and Singhal, Shubham and Jain, Piyush and Singh, Sanasam Ranbir and Ladhar, Ajay and Singh, Sandeep and Chugh, Uppinder},
 title = {Network Sampling Using K-hop Random Walks for Heterogeneous Network Embedding},
 booktitle = {Proceedings of the ACM India Joint International Conference on Data Science and Management of Data},
 year = {2019}
 }
+```
 
