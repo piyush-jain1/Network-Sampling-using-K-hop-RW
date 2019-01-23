@@ -98,7 +98,6 @@ If you find this work useful, please cite the following paper:
  publisher = {ACM},
  
  address = {New York, NY, USA},
- 
  keywords = {Co-authorship, DBLP, Heterogeneous Network, Network Embedding, Network Sampling, Random Walk},
  
 } 
